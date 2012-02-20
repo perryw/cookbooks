@@ -1,0 +1,7 @@
+[submodule "java_keystore"]
+	path = java_keystore
+	url = git@github.com:perryw/cookbook-java_keystore.git
+[submodule "salsa"]
+	path = salsa
+	url = git@github.com:perryw/cookbook-salsa.git
+
