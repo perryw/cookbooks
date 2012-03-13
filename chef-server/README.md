@@ -56,6 +56,12 @@ The Chef Server will work on a variety of platforms, however a Ubuntu or Debian 
 
 The `chef-server::default` recipe will work on any platform running the Chef Server, as it only compacts the CouchDB / views.
 
+See:
+
+* http://wiki.opscode.com/display/chef/Installing+Chef+Server+using+Chef+Solo
+
+Note that CentOS 5 is known to not work due to issues with Ruby.
+
 Cookbooks
 ---------
 
@@ -210,6 +216,36 @@ js\_expire\_hours
 
 Sets expiration time for JavaScript in the WebUI.
 
+api\_server\_name
+-----------------
+
+VirtualHost server name for the API.
+
+api\_port
+---------
+
+Port for the API's HTTPS proxy.
+
+api\_aliases
+------------
+
+VirtualHost server aliases for the API.
+
+webui\_server\_name
+-----------------
+
+VirtualHost server name for the webui.
+
+webui\_port
+---------
+
+Port for the WebUI HTTPS proxy.
+
+webui\_aliases
+------------
+
+VirtualHost server alaises for the webui.
+
 RECIPES AND USAGE
 =================
 
@@ -299,7 +335,7 @@ LICENSE AND AUTHORS
 * Author: Joshua Timberman <joshua@opscode.com>
 * Author: Joshua Sierles <joshua@37signals.com>
 
-* Copyright 2008-2011, Opscode, Inc
+* Copyright 2008-2012, Opscode, Inc
 * Copyright 2009, 37signals
 
 Licensed under the Apache License, Version 2.0 (the "License");
