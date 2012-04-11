@@ -5,3 +5,6 @@
 	path = salsa
 	url = git@github.com:perryw/cookbook-salsa.git
 
+[submodule "mongodb"]
+	path = mongodb
+	url = git@github.com:perryw/cookbook-mongodb.git
