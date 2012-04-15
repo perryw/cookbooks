@@ -8,3 +8,9 @@
 [submodule "mongodb"]
 	path = mongodb
 	url = git@github.com:perryw/cookbook-mongodb.git
+[submodule "tomcat"]
+	path = tomcat
+	url = git@github.com:perryw/tomcat.git
+[submodule "ark"]
+	path = ark
+	url = git://github.com/bryanwb/chef-ark.git
